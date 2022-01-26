@@ -5,3 +5,4 @@ dependencies:
   - openpyxl
   - ipywidgets
   - bqplot
+  - plotly
