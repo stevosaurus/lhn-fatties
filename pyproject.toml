@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lhn-fatties"
+version = "0.1.0"
+description = "Dashboard notebook for lhn fatty data"
+authors = ["Steven Jackson"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+voila = "^0.3.0"
+pandas = "^1.4.0"
+openpyxl = "^3.0.9"
+
+[tool.poetry.dev-dependencies]
+black = "mypy"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

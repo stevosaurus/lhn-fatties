@@ -1,0 +1,5 @@
+name: lhn_fatties
+dependencies:
+  - pandas
+  - voila
+  - openpyxl
