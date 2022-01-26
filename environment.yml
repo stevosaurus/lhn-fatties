@@ -4,5 +4,4 @@ dependencies:
   - voila
   - openpyxl
   - ipywidgets
-  - bqplot
   - plotly

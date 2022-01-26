@@ -130,21 +130,6 @@ six = ">=1.9.0"
 webencodings = "*"
 
 [[package]]
-name = "bqplot"
-version = "0.12.32"
-description = "Interactive plotting for the Jupyter notebook, using d3.js and ipywidgets."
-category = "main"
-optional = false
-python-versions = ">=3.6"
-
-[package.dependencies]
-ipywidgets = ">=7.5.0"
-numpy = ">=1.10.4,<2.0.0"
-pandas = ">=1.0.0,<2.0.0"
-traitlets = ">=4.3.0"
-traittypes = ">=0.0.6"
-
-[[package]]
 name = "cffi"
 version = "1.15.0"
 description = "Foreign Function Interface for Python calling C code."
@@ -938,20 +923,6 @@ python-versions = ">=3.7"
 test = ["pytest"]
 
 [[package]]
-name = "traittypes"
-version = "0.2.1"
-description = "Scipy trait types"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-traitlets = ">=4.2.2"
-
-[package.extras]
-test = ["numpy", "pandas", "xarray", "pytest"]
-
-[[package]]
 name = "typing-extensions"
 version = "4.0.1"
 description = "Backported and Experimental Type Hints for Python 3.6+"
@@ -1029,7 +1000,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "1f519004b7f7ce2b2dcdc9e29747239afac9787d0f7dcd004586a8cc3011ef54"
+content-hash = "6a1a1762bd8b5fd6b67571279f5df6d684a3fe63531ce1037acd56d790d84760"
 
 [metadata.files]
 anyio = [
@@ -1086,10 +1057,6 @@ black = [
 bleach = [
     {file = "bleach-4.1.0-py2.py3-none-any.whl", hash = "sha256:4d2651ab93271d1129ac9cbc679f524565cc8a1b791909c4a51eac4446a15994"},
     {file = "bleach-4.1.0.tar.gz", hash = "sha256:0900d8b37eba61a802ee40ac0061f8c2b5dee29c1927dd1d233e075ebf5a71da"},
-]
-bqplot = [
-    {file = "bqplot-0.12.32-py2.py3-none-any.whl", hash = "sha256:815289a0136615bd0fbe05b851471622c27b4e56bda96e0db947c9a5827b8501"},
-    {file = "bqplot-0.12.32.tar.gz", hash = "sha256:6fbfb93955ac15f87b6fa37368b04fd00da1f2d43843d8d9bc3d59116c6f5f00"},
 ]
 cffi = [
     {file = "cffi-1.15.0-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:c2502a1a03b6312837279c8c1bd3ebedf6c12c4228ddbad40912d671ccc8a962"},
@@ -1643,10 +1610,6 @@ tornado = [
 traitlets = [
     {file = "traitlets-5.1.1-py3-none-any.whl", hash = "sha256:2d313cc50a42cd6c277e7d7dc8d4d7fedd06a2c215f78766ae7b1a66277e0033"},
     {file = "traitlets-5.1.1.tar.gz", hash = "sha256:059f456c5a7c1c82b98c2e8c799f39c9b8128f6d0d46941ee118daace9eb70c7"},
-]
-traittypes = [
-    {file = "traittypes-0.2.1-py2.py3-none-any.whl", hash = "sha256:1340af133810b6eee1a2eb2e988f862b0d12b6c2d16f282aaf3207b782134c2e"},
-    {file = "traittypes-0.2.1.tar.gz", hash = "sha256:be6fa26294733e7489822ded4ae25da5b4824a8a7a0e0c2dccfde596e3489bd6"},
 ]
 typing-extensions = [
     {file = "typing_extensions-4.0.1-py3-none-any.whl", hash = "sha256:7f001e5ac290a0c0401508864c7ec868be4e701886d5b573a9528ed3973d9d3b"},
