@@ -3,3 +3,5 @@ dependencies:
   - pandas
   - voila
   - openpyxl
+  - ipywidgets
+  - bqplot

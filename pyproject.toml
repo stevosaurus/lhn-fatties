@@ -10,6 +10,8 @@ python = "^3.10"
 voila = "^0.3.0"
 pandas = "^1.4.0"
 openpyxl = "^3.0.9"
+ipywidgets = "^7.6.5"
+bqplot = "^0.12.32"
 
 [tool.poetry.dev-dependencies]
 black = "mypy"
